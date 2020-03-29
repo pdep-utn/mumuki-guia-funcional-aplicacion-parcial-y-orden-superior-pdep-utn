@@ -1,0 +1,22 @@
+---
+name: Aplicación Parcial y Orden Superior
+locale: es
+type: learning
+beta: false
+language: haskell
+id_format: "%05d"
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+private: false

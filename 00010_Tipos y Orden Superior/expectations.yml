@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: saludoDoble
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: saludoDoble
+  inspection: HasTypeSignature

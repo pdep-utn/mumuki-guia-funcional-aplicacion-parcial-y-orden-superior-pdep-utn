@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: reyQuick
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sra
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sr
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sinTitulo
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Except:HasTooShortIdentifiers
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Except:HasRedundantParameter

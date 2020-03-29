@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: doble
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: dobleDelSiguiente
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: dobleDelSiguiente
+  inspection: HasComposition

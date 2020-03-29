@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esNoVacio
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esNoVacio
+  inspection: HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esNoVacio
+  inspection: HasTypeSignature

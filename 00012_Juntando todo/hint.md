@@ -1,0 +1,2 @@
+- Existe la función  `not` 
+- Para ver si una cosa es distinta que otra, se usa la función `/=` 

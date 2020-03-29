@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: funcionMisteriosa2
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: funcionMisteriosa2
+  inspection: HasTypeSignature
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: funcionMisteriosa1
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: funcionMisteriosa1
+  inspection: HasTypeSignature
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: funcionMisteriosa3
+  inspection: HasTypeSignature
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: funcionMisteriosa3
+  inspection: Not:HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Except:UsesWrongCaseBindings

@@ -1,0 +1,1 @@
+Como habrás visto, para hacer el siguiente no hicimos  `(1+)` sino `(+1)`. Esto es porque de ahora en adelante las funciones que veamos aplicadas parcialmente, tendrán notación prefija (recordá que esto significa que el nombre de la función va delante de sus argumentos).

@@ -1,0 +1,1 @@
+Revisa el tipo de las funciones que recibís
