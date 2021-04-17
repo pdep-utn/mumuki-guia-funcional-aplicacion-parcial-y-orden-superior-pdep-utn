@@ -23,7 +23,7 @@ Y acá estamos usando las funciones anteriores sin aplicarlas:
 <function>
 ```
 
-En ambos casos, lo que devuelve cada una de esas expresiones es la función original. Acá vemos algo interansante: como las funciones son valores, una función, o (como en este caso) una expresión en el intérprete puede arrojar otra función como resultado. 
+En ambos casos, lo que devuelve cada una de esas expresiones es la función original. Acá vemos algo interesante: como las funciones son valores, una función, o (como en este caso) una expresión en el intérprete puede arrojar otra función como resultado. 
 
 _(Probalo en el intérprete)_
 
